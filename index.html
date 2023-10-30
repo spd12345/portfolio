@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Shakti</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Shakti</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="togglemenu()">About</a></li>
+                <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
+                <li><a href="#project" onclick="togglemenu()">Project</a></li>
+                <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic_container">
+            <img class="image" src="/assets/profile-1.jpg" alt="Shakti Pattanayak's Image">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Shakti Prasad Pattanayak</h1>
+            <p class="section_text_p2" style="font-size: 1.3rem;font-weight: 90px;">Java Developer</p>
+            <div class="btn_container">
+                 <button class="btn btn-color1" onclick="window.open('./assets/Shakti_Resume.pdf')">Download cv</button>
+                 <button class="btn btn-color2" onclick="location.href='./#contacts'">Contact info</button>
+            </div>
+            <div class="socials_container">
+               <img src="./assets/logo-linkedin.png"
+                        class="icons" 
+                        alt="linkedin" 
+                        onclick="location.href='https://www.linkedin.com/in/shaktipattanayak-/'">
+                <img src="./assets/logo-git.png"
+                        class="icons" 
+                        alt="Github" 
+                        onclick="location.href='https://github.com/spd12345'">
+                
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section_text_p1">Get to Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+
+         <div class="section_pic_container">
+            <img 
+            src="./assets/profile-2.jpg" 
+            alt="Profile Picture" 
+            class="about-pic"/>
+         </div>
+
+         <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img src="/assets/pg.png" 
+                        alt="education icon"
+                            class="icon"/>
+                    <h3>Post Graduation</h3>
+                    <p>MSc. (Information Technology)</p>
+                </div>
+
+                <div class="details-container">
+                    <img src="/assets/degree.png" 
+                        alt="education icon"
+                            class="icon">
+                    <h3>Graduation</h3>
+                    <p>BSc.(Information Technology & Management)
+                    </p>
+                </div>                
+            </div>
+
+            <div class="text-container">
+                <p>ndub vdbcuibgduifguidd uihbdhucdixjoisdjio sdoijfdu
+                     fdhugduohjifdnjd nvj nvj ncs
+                     ndub vdbcuibgduifguidd uihbdhucdixjoisdjio sdoijfdu
+                     fdhugduohjifdnjd nvj nvj ncs
+                     ndub vdbcuibgduifguidd uihbdhucdixjoisdjio sdoijfdu
+                     fdhugduohjifdnjd nvj nvj ncs
+                     ndub vdbcuibgduifguidd uihbdhucdixjoisdjio sdoijfdu
+                     fdhugduohjifdnjd nvj nvj ncs
+                </p>
+            </div>
+         </div>
+      </section>
+      <nav style="height: 4.5rem;"></nav>
+      <section id="experience">
+            <p class="section_text_p1">Explore My</p>
+            <h1 class="title">Experience</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Frontend Development</h2>
+                         <div class="article-container">
+                            <article>
+                                <Img src="/assets/checkmark.png"
+                                      alt="experience icon"
+                                      class="icon"></Img>
+                                <div>
+                                    <h3>HTML</h3>
+                                    <p>Intermidiate</p>
+                                </div>      
+                            </article>
+
+                            <article>
+                                <Img src="/assets/checkmark.png"
+                                      alt="experience icon"
+                                      class="icon"></Img>
+                                <div>
+                                    <h3>CSS</h3>
+                                    <p>Intermidiate</p>
+                                </div>      
+                            </article>
+                            <article>
+                                <Img src="/assets/checkmark.png"
+                                      alt="experience icon"
+                                      class="icon"></Img>
+                                <div>
+                                    <h3>Bootstrap</h3>
+                                    <p>Basic</p>
+                                </div>      
+                            </article>
+
+                            <article>
+                                <Img src="/assets/checkmark.png"
+                                      alt="experience icon"
+                                      class="icon"></Img>
+                                <div>
+                                    <h3>JavaScript</h3>
+                                    <p>Basic</p>
+                                </div>      
+                            </article>                          
+                         </div>   
+                    </div>
+
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Backend Development</h2>
+                         <div class="article-container">
+                            <article>
+                                <Img src="/assets/checkmark.png"
+                                      alt="experience icon"
+                                      class="icon"></Img>
+                                <div>
+                                    <h3>Core Java</h3>
+                                    <p>Intermidiate</p>
+                                </div>      
+                            </article>
+
+                            <article>
+                                <Img src="/assets/checkmark.png"
+                                      alt="experience icon"
+                                      class="icon"></Img>
+                                <div>
+                                    <h3>Oracle</h3>
+                                    <p>Intermidiate</p>
+                                </div>      
+                            </article>
+
+                            <article>
+                                <Img src="/assets/checkmark.png"
+                                      alt="experience icon"
+                                      class="icon"></Img>
+                                <div>
+                                    <h3>Adv. Java</h3>
+                                    <p>Basic</p>
+                                </div>      
+                            </article>
+
+                            <article>
+                                <Img src="/assets/checkmark.png"
+                                      alt="experience icon"
+                                      class="icon"></Img>
+                                <div>
+                                    <h3>PHP</h3>
+                                    <p>Basic</p>
+                                </div>      
+                            </article>
+                                                                             
+                         </div>   
+                    </div>
+                    
+                </div>
+            </div>
+      </section>
+      <Section id="project">
+        <p class="section_text_p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experence-details-container">
+            <div class="about-containers">
+          <div class="details-container color-container"> 
+            <div class="article-container">
+                <img src="/assets/pj1.png" alt="project 1" 
+                class="project-img">
+
+            </div>
+            <h2 class="experience-sub-title-title"> Project One</h2>
+            <div class="btn-container">
+                <button class="btn btn-color1 project-btn" 
+                onclick="location.href='https://github.com/spd12345'">
+                Github</button>
+
+                <button class="btn btn-color1 project-btn" 
+                onclick="location.href='https://github.com/spd12345'">
+                Live Demo</button>
+            </div>
+          </div> 
+          <div class="details-container color-container"> 
+            <div class="article-container">
+                <img src="/assets/pj1.png" alt="project 1" 
+                class="project-img">
+
+            </div>
+            <h2 class="experience-sub-title-title"> Project One</h2>
+            <div class="btn-container">
+                <button class="btn btn-color1 project-btn" 
+                onclick="location.href='https://github.com/spd12345'">
+                Github</button>
+
+                <button class="btn btn-color1 project-btn" 
+                onclick="location.href='https://github.com/spd12345'">
+                Live Demo</button>
+            </div>
+          </div> 
+          <div class="details-container color-container"> 
+            <div class="article-container">
+                <img src="/assets/pj1.png" alt="project 1" 
+                class="project-img">
+
+            </div>
+            <h2 class="experience-sub-title-title"> Project One</h2>
+            <div class="btn-container">
+                <button class="btn btn-color1 project-btn" 
+                onclick="location.href='https://github.com/spd12345'">
+                Github</button>
+
+                <button class="btn btn-color1 project-btn" 
+                onclick="location.href='https://github.com/spd12345'">
+                Live Demo</button>
+            </div>
+          </div> 
+        </div>
+        </div>
+
+      </Section>
+      <nav style="height: 5rem;"></nav>
+      <section id="contact">
+            <p class="section_text_p1">Get in Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="/assets/email.png" 
+                    alt="Email Icon"
+                    class="icon contact-icon email-icon">
+                    <p class="email"><a href="mailto:pattanayak779@gmail.com">pattanayak779@gmail.com</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img src="/assets/logo-linkedin.png" 
+                    alt="linkedin Icon"
+                    class="icon contact-icon">
+                    <p><a href="https://www.linkedin.com/in/shaktipattanayak-/">linkedin</a></p>
+                </div>
+            </div>
+
+      </section>
+      <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Shakti Pattanayak. All Rights Reserved</p>
+      </footer>
+    <script src="script.js"></script>
+</body>
+</html>
