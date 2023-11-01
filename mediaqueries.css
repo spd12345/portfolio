@@ -161,3 +161,27 @@
     
     }
 }
+
+@media screen and (max-width: 457px){
+    #profile .section_text{
+        margin-top: 5vh;
+    }
+    #about,
+    #experience{
+        margin: 2rem;
+        
+    }
+    #about{
+
+        margin-bottom: 4rem;
+    }
+    #project{
+        margin-top: 3rem;
+    }
+    .contact-info-upper-container{
+        margin-top: 3rem;
+    }
+    .contact-info-container p{
+       font-size: small;
+    }
+}
