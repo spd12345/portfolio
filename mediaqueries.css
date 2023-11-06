@@ -146,6 +146,9 @@
     }
 }
 @media screen and (max-width: 700px){
+    #profile{
+        margin-top: auto;
+    }
     
     .socials_container{
         padding-top: 10px;
@@ -167,29 +170,37 @@
 }
 
 @media screen and (max-width: 457px){
-    #profile .section_text{
-        margin-top: 5vh;
+    #profile{
+        margin: auto;
+    }
+     .section_text{
+        margin-top: auto;
     }
     .image{
         width: auto;
         height: auto;
     }
+ 
     #about,
     #experience{
         margin: 2rem;
         
     }
     #about{
-
-        margin-bottom: 4rem;
+        padding-top: 5rem;
+        margin-bottom: 5rem;
     }
     #project{
-        margin-top: 3rem;
+        margin: 5rem;
     }
     .contact-info-upper-container{
         margin-top: 3rem;
     }
     .contact-info-container p{
        font-size: small;
-    }
+ 
+   }
+   .nav-links{
+    font-size: medium;
+   }
 }
