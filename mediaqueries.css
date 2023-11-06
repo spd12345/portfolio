@@ -48,7 +48,7 @@
         height: 40vh;
     }
     #profile{
-        height: 83vh;
+        height: 80vh;
     }
     article{
         font-size: 1rem;
@@ -122,6 +122,10 @@
     #profile .section_text{
         margin-top: 5vh;
     }
+    .image{
+        width: auto;
+        height: auto;
+    }
     #about,
     #experience{
         margin: 2rem;
@@ -165,6 +169,10 @@
 @media screen and (max-width: 457px){
     #profile .section_text{
         margin-top: 5vh;
+    }
+    .image{
+        width: auto;
+        height: auto;
     }
     #about,
     #experience{
