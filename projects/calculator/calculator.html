@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+<body>
+    <div id="outcontainer">
+        <h2 id="heading"> Calculator</h2>
+        <div id="displayscreen">
+            <input type="text" id="textarea" value="">
+        </div>
+        <div class="wholebuttom">
+            <div class="btstyle">
+                    <input type="button" value="AC" style="color: rgb(201, 80, 80);" onclick="textarea.value='' ">
+                    <input type="button" value="Del" style="color: rgb(201, 80, 80);" onclick="textarea.value= textarea.value.toString().slice(0,-1)">
+                    <input type="button" value="."  style="color: rgb(201, 80, 80);" onclick="textarea.value+='.'">
+                    <input type="button" value="/"  style="color: rgb(201, 80, 80);" onclick="textarea.value+='/'">
+            </div>
+            <div class="btstyle">
+                    <input type="button" value="7" onclick="textarea.value+='7'">
+                    <input type="button" value="8" onclick="textarea.value+='8'">
+                    <input type="button" value="9" onclick="textarea.value+='9'">
+                    <input type="button" value="*" style="color: rgb(201, 80, 80);" onclick="textarea.value+='*'">
+            </div>
+            <div class="btstyle">
+                    <input type="button" value="4" onclick="textarea.value+='4'">
+                    <input type="button" value="5" onclick="textarea.value+='5'">
+                    <input type="button" value="6" onclick="textarea.value+='6'">
+                    <input type="button" value="-" style="color: rgb(201, 80, 80);" onclick="textarea.value+='-'">
+            </div>
+            <div class="btstyle">
+                    <input type="button" value="1" onclick="textarea.value+='1'">
+                    <input type="button" value="2" onclick="textarea.value+='2'">
+                    <input type="button" value="3" onclick="textarea.value+='3'">
+                    <input type="button" value="+" style="color: rgb(201, 80, 80);" onclick="textarea.value+='+'">
+            </div>
+            <div class="btstyle">
+                    <input type="button" value="0"  onclick="textarea.value+='0'">
+                    <input type="button" value="00" onclick="textarea.value+='00'">
+                    <input type="button" value="="class="equal" style="color: rgb(215, 48, 48);" onclick="textarea.value=eval(textarea.value)">
+            </div>
+        </div>
+
+        
+    </div>
+
+        
+       
+    
+</body>
+</html>
