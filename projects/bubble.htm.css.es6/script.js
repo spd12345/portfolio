@@ -1,5 +1,5 @@
 var timer=60;//global variable
-var score=0
+var score=0;
 var hitrn;
 
 function cntScore(){
