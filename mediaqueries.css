@@ -145,7 +145,7 @@
        font-size: small;
     }
 }
-@media screen and (max-width: 700px){
+@media screen and (max-width: 768px){
     #profile{
         margin-top: auto;
     }
@@ -169,7 +169,7 @@
     }
 }
 
-@media screen and (max-width: 457px){
+@media screen and (max-width: 567px){
     #profile{
         margin: auto;
     }
