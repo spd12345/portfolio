@@ -118,33 +118,8 @@
     margin-top: 15rem;
    }
 }
-@media screen and (max-width: 400px){
-    #profile .section_text{
-        margin-top: 5vh;
-    }
-    .image{
-        width: auto;
-        height: auto;
-    }
-    #about,
-    #experience{
-        margin: 2rem;
-        
-    }
-    #about{
 
-        margin-bottom: 4rem;
-    }
-    #project{
-        margin-top: 3rem;
-    }
-    .contact-info-upper-container{
-        margin-top: 3rem;
-    }
-    .contact-info-container p{
-       font-size: small;
-    }
-}
+
 @media screen and (max-width: 768px){
     #profile{
         margin-top: auto;
