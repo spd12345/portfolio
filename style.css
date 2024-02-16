@@ -153,6 +153,10 @@ a:hover{
     font-size: 3rem;
     text-align: center;
 }
+.title2{
+    font-size: 2rem;
+    text-align: center;
+}
 #socials_container{
     display: flex;
     justify-content: center;
