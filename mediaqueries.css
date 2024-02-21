@@ -105,9 +105,9 @@
     margin-top: -10rem;
    }
    #about{
-    margin-top: 15rem;
+    margin-top: 5vh;
     margin-bottom: 5rem;
-    height: auto;
+    height: 80vh;
    }
    .about-details-container{
     margin-top: 2rem;
@@ -116,17 +116,13 @@
     display: none;
    }
    #experience{
-    margin-top:12rem ;
-    height: auto;
+    height:90vh
    }
    .experience-details-container{
     margin-top: 1rem;
     margin-bottom: 5rem;
    }
-   #project{
-    margin-top: 15rem;
-   }
-}
+   
 
 
 @media screen and (max-width: 768px){
@@ -156,10 +152,17 @@
     #profile{
         margin: auto;
     }
+    .image{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: auto;
+        height: auto;
+    }
      .section_text{
         margin-top: auto;
     }
-   
+    
  
     #about,
     #experience{
@@ -168,18 +171,15 @@
     }
     #about{
         padding-top: 5rem;
-        margin-bottom: 5rem;
-        height: 100vw;
+        height: 90vh;
     }
     #experience{
-        height: 100vw;
+        height: auto;
     }
     #project{
         margin: 1rem;
     }
-    .contact-info-upper-container{
-        margin-top: 3rem;
-    }
+   
     .contact-info-container p{
        font-size: small;
  
@@ -192,3 +192,4 @@
    }
 }
   
+}
