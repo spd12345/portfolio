@@ -131,7 +131,13 @@
     margin-top: 1rem;
     margin-bottom: 5rem;
    }
-   
+   .contact-info-container p{
+    font-size: small;
+
+}
+.nav-links{
+ font-size: medium;
+}
 
 
 @media screen and (max-width: 768px){
