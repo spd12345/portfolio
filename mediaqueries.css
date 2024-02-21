@@ -58,17 +58,19 @@
 
     }
     .contact-info-container p{
-        font-size: small;   
+        font-size: medium;   
 }
 .contact-info-upper-container{
     display: grid;
-   
-}
+   }
+   .contact-info-upper-container{
+    margin-bottom: 2rem;
+   }
 }
 @media screen and (max-width: 600px){
     #contact,
     footer{
-        height: 40vh;
+        height: auto;
     }
     #profile{
         height: 90vh;
@@ -145,8 +147,10 @@
 .nav-links{
  font-size: medium;
 }
-
-
+.contact-info-upper-container{
+    margin-bottom: 2rem;
+   }
+}
 @media screen and (max-width: 768px){
     #profile{
         margin-top: auto;
@@ -169,6 +173,9 @@
        height: auto;
     
     }
+    .contact-info-upper-container{
+        margin-bottom: 2rem;
+       }
 }
 @media screen and (max-width: 567px){
     #profile{
@@ -222,7 +229,7 @@
 }
 }
   
-}
+
 @media screen and (max-width: 400px){
 
     .contact-info-container p{
@@ -236,4 +243,7 @@
         height: auto;
         width: 4vw;
     }
+    .contact-info-upper-container{
+        margin-bottom: 2rem;
+       }
 }
