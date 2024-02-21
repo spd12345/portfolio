@@ -57,6 +57,13 @@
         margin-top: 0;
 
     }
+    .contact-info-container p{
+        font-size: small;   
+}
+.contact-info-upper-container{
+    display: grid;
+   
+}
 }
 @media screen and (max-width: 600px){
     #contact,
@@ -116,13 +123,13 @@
    #about{
     margin-top: 5vh;
     margin-bottom: 5rem;
-    height: 100vh;
+    height: auto;
    }
    .about-details-container{
     margin-top: 2rem;
    }
    .text-container{
-    display: none;
+   height: auto;
    }
    #experience{
     height:90vh
@@ -209,6 +216,24 @@
    #arrow{
     display: none;
    }
+   .contact-icon{
+    height: auto;
+    width: 4vw;
+}
 }
   
+}
+@media screen and (max-width: 400px){
+
+    .contact-info-container p{
+        font-size: small;
+  
+    }
+    .nav-links{
+     font-size: small;
+    }
+    .contact-icon{
+        height: auto;
+        width: 4vw;
+    }
 }
