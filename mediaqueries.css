@@ -122,8 +122,6 @@
     margin-top: 1rem;
     margin-bottom: 5rem;
    }
-   
-
 
 @media screen and (max-width: 768px){
     #profile{
@@ -174,7 +172,7 @@
         height: 90vh;
     }
     #experience{
-        height: auto;
+        height: 90vh;
     }
     #project{
         margin: 1rem;
