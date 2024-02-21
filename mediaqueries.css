@@ -57,12 +57,6 @@
     #profile{
         height: auto;
     }
-    .section_pic_container{
-        width: auto;
-        height: 25vw;
-        margin: 0 auto 2 rem;
-
-    }
     article{
         font-size: 1rem;
     }
@@ -135,12 +129,7 @@
     #profile{
         margin-top: auto;
     }
-    .section_pic_container{
-        width: auto;
-        height: 35vw;
-        margin: 0 auto 2 rem;
-
-    }
+    
     .socials_container{
         padding-top: auto;
         padding-bottom: auto;
@@ -169,12 +158,6 @@
         text-align: center;
         width: auto;
         height: auto;
-    }
-    .section_pic_container{
-        width: auto;
-        height: 40vw;
-        margin: 0 auto 2 rem;
-
     }
      .section_text{
         margin-top: auto;
