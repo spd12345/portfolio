@@ -55,7 +55,7 @@
         height: 40vh;
     }
     #profile{
-        height: auto;
+        height: 90vh;
     }
     article{
         font-size: 1rem;
@@ -107,7 +107,7 @@
    #about{
     margin-top: 5vh;
     margin-bottom: 5rem;
-    height: 80vh;
+    height: 100vh;
    }
    .about-details-container{
     margin-top: 2rem;
@@ -122,6 +122,8 @@
     margin-top: 1rem;
     margin-bottom: 5rem;
    }
+   
+
 
 @media screen and (max-width: 768px){
     #profile{
@@ -149,6 +151,7 @@
 @media screen and (max-width: 567px){
     #profile{
         margin: auto;
+        height: fit-content;
     }
     .image{
         display: flex;
@@ -161,21 +164,24 @@
         margin-top: auto;
     }
     
- 
+    .section_pic_container{
+        width: auto;
+        height: 60vw;
+    }
     #about,
     #experience{
         margin: 2rem;
         
     }
     #about{
-        padding-top: 5rem;
-        height: 90vh;
+        height: auto;
     }
     #experience{
-        height: 150vh;
+        height: auto;
     }
     #project{
         margin: 1rem;
+        height: fit-content;
     }
    
     .contact-info-container p{
