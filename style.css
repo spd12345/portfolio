@@ -130,24 +130,26 @@ a:hover{
     display: flex;
     justify-content: center;
     gap: 3rem;
-    height: 80vh;
-    margin: 3rem;
+    height:auto;
+    margin: 2rem;
 }
 .section_pic_container{
     display: flex;
+    justify-content: center;
+    text-align: center;
 }
 .section_text,.section_text_p1{
     justify-content: center;
     text-align: center;
 }
 .section_text{
-    margin-top: 20vh;
-    margin-bottom: 20vh;
+    margin-top:auto;
+    margin-bottom:auto;
 }
 .image{
     border-radius: 50%;
-    width: 100vh;
-    height: 400px;
+    width: 20vw;
+    height: 20vw;
 }
 .title{
     font-size: 3rem;
@@ -217,7 +219,7 @@ a:hover{
     justify-content: center;
     text-align: center;
     gap: 2rem;
-    height: 90vh;
+    height: 90vw;
     margin: 4rem;
     margin-right: 10rem;
     margin-left:10rem ;
@@ -256,8 +258,8 @@ a:hover{
     display: flex;
 }
 .section_pic_container{
-    height: 400px;
-    width: 400px;
+    height: 20vw;
+    width: 40vw;
     margin: auto 0;
     display: flex;
 }
@@ -273,7 +275,7 @@ a:hover{
     margin-right: 10rem;
     margin-left:10rem ;
     margin-bottom: 4rem;
-    height: 100vh;
+    height: 100vw;
 }
 .experence-sub-title{
     color: rgb(85,85,85);

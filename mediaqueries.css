@@ -16,6 +16,13 @@
     #hamburger-nav{
         display: flex;
     }
+    .image{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: auto;
+        height: auto;
+    }
     #experence,
     .experence-details-container{
         margin-top: 2rem;
@@ -32,8 +39,8 @@
         margin: 0.5%;   
     }
     .section_pic_container{
-        width: 275px;
-        height: 275px;
+        width: auto;
+        height: 25vw;
         margin: 0 auto 2 rem;
 
     }
@@ -48,7 +55,7 @@
         height: 40vh;
     }
     #profile{
-        height: 80vh;
+        height: auto;
     }
     article{
         font-size: 1rem;
@@ -100,6 +107,7 @@
    #about{
     margin-top: 15rem;
     margin-bottom: 5rem;
+    height: auto;
    }
    .about-details-container{
     margin-top: 2rem;
@@ -109,6 +117,7 @@
    }
    #experience{
     margin-top:12rem ;
+    height: auto;
    }
    .experience-details-container{
     margin-top: 1rem;
@@ -126,8 +135,8 @@
     }
     
     .socials_container{
-        padding-top: 10px;
-        padding-bottom: 30px;
+        padding-top: auto;
+        padding-bottom: auto;
         
     }
     .image{
@@ -135,11 +144,11 @@
         height: auto;
     }
     #experience{
-        padding-top: 60px;
+        height: auto;
     
     }
     #project{
-        padding-top: 8rem;
+       height: auto;
     
     }
 }
@@ -150,10 +159,7 @@
      .section_text{
         margin-top: auto;
     }
-    .image{
-        width: auto;
-        height: auto;
-    }
+   
  
     #about,
     #experience{
@@ -163,6 +169,10 @@
     #about{
         padding-top: 5rem;
         margin-bottom: 5rem;
+        height: 100vw;
+    }
+    #experience{
+        height: 100vw;
     }
     #project{
         margin: 1rem;
@@ -176,6 +186,9 @@
    }
    .nav-links{
     font-size: medium;
+   }
+   #arrow{
+    display: none;
    }
 }
   
