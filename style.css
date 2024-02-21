@@ -276,7 +276,7 @@ a:hover{
     margin-right: 10rem;
     margin-left:10rem ;
     margin-bottom: 4rem;
-    height: 60vw;
+    height: auto;
 }
 .experence-sub-title{
     color: rgb(85,85,85);

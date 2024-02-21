@@ -28,7 +28,7 @@
     }
     #experence,
     .experence-details-container{
-        margin-top: 2rem;
+        height: auto;
     }
     #profile,
     .section-container{
@@ -37,6 +37,12 @@
     section,
     .section-container{
         height: fit-content;
+    }
+    #about{
+        height: auto;
+    }
+    #profile{
+        height: auto;
     }
     section{
         margin: 0.5%;   
