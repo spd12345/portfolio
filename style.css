@@ -129,8 +129,9 @@ a:hover{
 #profile{
     display: flex;
     justify-content: center;
+    text-align: center;
     gap: 3rem;
-    height:auto;
+    height:33vw;
     margin: 2rem;
 }
 .section_pic_container{
@@ -219,7 +220,7 @@ a:hover{
     justify-content: center;
     text-align: center;
     gap: 2rem;
-    height: 90vw;
+    height: 48vw;
     margin: 4rem;
     margin-right: 10rem;
     margin-left:10rem ;
@@ -254,7 +255,7 @@ a:hover{
 }
 .section-container{
     gap: 4rem;
-    height: 80%;
+    height: 60%;
     display: flex;
 }
 .section_pic_container{
@@ -275,7 +276,7 @@ a:hover{
     margin-right: 10rem;
     margin-left:10rem ;
     margin-bottom: 4rem;
-    height: 100vw;
+    height: 60vw;
 }
 .experence-sub-title{
     color: rgb(85,85,85);
