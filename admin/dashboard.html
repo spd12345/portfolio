@@ -6,6 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
 </head>
+<style>
+	button{
+      width: 10rem;
+      height: 3rem;
+	  align-items: center;
+	  margin-top: 15px;
+	  border: none;
+	  border-radius: 5px;
+	  background-color:	#228B22;
+	  color: #fff;
+	  font-size: 20px;
+	  cursor: pointer;
+	  transition: all 0.3s ease-in-out;
+	  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+      align-items: right;
+	}
+
+    button:hover{
+        cursor: pointer;
+        background-color:  rgb(196, 28, 31);
+    }
+</style>
 <script>
     // Redirect to login if not logged in
     if (sessionStorage.getItem('isLoggedIn') !== 'true') {
@@ -16,10 +38,31 @@
         sessionStorage.removeItem('isLoggedIn');
         window.location.href = "../admin.html";
     }
-</script>
-<body>
-    <h1>Welcome to the Dashboard</h1>
-    <a href="#" onclick="logout()">Logout</a>
 
+                          
+</script>
+<body >
+<div id="header" style="display: flex; justify-content: space-between; ">
+    <div id="datetime" style="width: 21vw; font-size: 20px; text-align: center; margin-top: 25px; "></div>
+    <h1 style="justify-content: left;">Welcome to Dashboard</h1>
+    <button href="#" onclick="logout()" id="logout">Logout</button>
+</div> 
+<div style=" display: flex; justify-content: center; ">
+    <img src="../assets/web.avif" alt="Under Construction" style="width: 35vw;" >
+</div>
 </body>
+<script>
+
+function dttime(){
+
+const now = new Date();
+const date = now.toLocaleDateString(); // Format: MM/DD/YYYY (based on local
+const time = now.toLocaleTimeString(); // Format: HH:MM:SS AM/PM (based on local
+   const dateTimeString = `Date: ${date} | Time: ${time}`;
+   document.getElementById('datetime').innerHTML = dateTimeString;
+}
+
+dttime();
+setInterval(dttime, 1000); 
+</script>
 </html>
