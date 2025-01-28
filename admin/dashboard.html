@@ -5,28 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
+    <link rel="stylesheet" href="./dashboard.css">
 </head>
 <style>
-	button{
-      width: 10rem;
-      height: 3rem;
-	  align-items: center;
-	  margin-top: 15px;
-	  border: none;
-	  border-radius: 5px;
-	  background-color:	#228B22;
-	  color: #fff;
-	  font-size: 20px;
-	  cursor: pointer;
-	  transition: all 0.3s ease-in-out;
-	  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-      align-items: right;
-	}
-
-    button:hover{
-        cursor: pointer;
-        background-color:  rgb(196, 28, 31);
-    }
+   
 </style>
 <script>
     // Redirect to login if not logged in
@@ -43,13 +25,36 @@
 </script>
 <body >
 <div id="header" style="display: flex; justify-content: space-between; ">
-    <div id="datetime" style="width: 21vw; font-size: 20px; text-align: center; margin-top: 25px; "></div>
-    <h1 style="justify-content: left;">Welcome to Dashboard</h1>
+    <div id="left" style=" margin-top: 25px;">
+        <div id="datetime" style="width: 20vw; font-size: 1.3vw; text-align: center; "></div>
+        <h2 style="margin-left: 10px;"> <a href="./dashboard.html" style="text-decoration: none; color: #fff" >Dashboard</a></h2>
+    </div>
+    <h1 style="justify-content: left;">Welcome SPD</h1>
     <button href="#" onclick="logout()" id="logout">Logout</button>
 </div> 
-<div style=" display: flex; justify-content: center; ">
-    <img src="../assets/web.avif" alt="Under Construction" style="width: 35vw;" >
+<div id="main" style="display: flex;">
+   
+    <div class="sidebar">
+        <button onclick="addexp()">Add Experience</button>
+        <button onclick="updresume()">Update Resume</button>
+        <button onclick="updemail()">Update Email ID</button>
+        <button onclick="profpic()">Update Profile Image</button>
+        <button onclick="addskill()">Add Skills</button>
+        <button onclick="addproj()">Add Project</button>
+    </div>
+
+   
+   
+    <div>
+        <div id="hero"></div>
+    </div>
+   
 </div>
+<!-- <form action="submit">
+ <input type="text" placeholder="enter Your updated Email" >
+ <input type="submit" onclick="emailSubmit()">
+</form> -->
+
 </body>
 <script>
 
@@ -65,4 +70,5 @@ const time = now.toLocaleTimeString(); // Format: HH:MM:SS AM/PM (based on local
 dttime();
 setInterval(dttime, 1000); 
 </script>
+<script src="admin.js"></script>
 </html>
