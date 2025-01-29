@@ -12,8 +12,9 @@ if( user == guser && pass == gpass ){
         
 }
 else{
+    window.location.href = "../admin.html";
     alert('invalid Input');
-    window.location.href = "admin.html";
+    
 }
 }
 // addexperence
