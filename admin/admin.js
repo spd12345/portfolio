@@ -12,7 +12,7 @@ if( user == guser && pass == gpass ){
         
 }
 else{
-    window.location.href = "/admin";
+    window.location.href = "/";
     alert('invalid Input');
     
 }
